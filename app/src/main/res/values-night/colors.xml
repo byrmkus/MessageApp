@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#410091</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#23302F</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="button">#533838</color>
+    <color name="blue">#533838</color>
+    <color name="gry">#FF000000</color>
+    <color name="text">#FFFFFFFF</color>
+    <color name="blacktext">#FFFFFF</color>
+    <color name="gry3">#555F95</color>
+    <color name="gry5">#533838</color>
+    <color name="gry6">#533838</color>
+    <color name="green">#533838</color>
+    <color name="profil">#999F799F</color>
+    <color name="gry2">#1F2325</color>
+    <color name="gry4">#1D1E20</color>
+    <color name="red">#533838</color>
+    <color name="red1">#533838</color>
+    <color name="Users">#99000000</color>
+</resources>

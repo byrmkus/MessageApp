@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#d2dae2"
+    android:gravity="center"
+    android:layout_marginRight="25dp"
+    android:layout_marginLeft="25dp"
+    android:layout_marginTop="25dp"
+    android:layout_marginBottom="25dp"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <ImageView
+            android:id="@+id/imageViewLoginS"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/sirtlan">
+
+        </ImageView>
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/editTextUserNameS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp"
+
+        android:hint="Kullanıcı Adı "
+        android:textColorHint="#6D214F"></EditText>
+    <EditText
+        android:id="@+id/editTextEmailS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Email"
+        android:textColorHint="#6D214F"></EditText>
+
+    <EditText
+        android:id="@+id/editTextPasswordS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Şifre"
+        android:textColorHint="#6D214F"></EditText>
+
+
+
+
+    <Button
+        android:id="@+id/buttonSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/white"
+        android:text="Kaydol"
+        android:textColor="@color/black"
+        android:textStyle="bold"></Button>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="35dp"
+        android:text="Kaydolarak, Koşullar'ı, Veri İlkesi'ni ve
+     Çerezler İlkesi'ni kabul etmiş olursun."
+        android:textAlignment="center"></TextView>
+
+</LinearLayout>

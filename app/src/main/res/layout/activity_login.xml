@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gry3"
+    android:gravity="center"
+    android:layout_alignParentBottom="true"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/imageViewLogin"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginLeft="25dp"
+        android:background="@drawable/sirtlan">
+
+    </ImageView>
+</LinearLayout>
+
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="15dp"
+        android:drawableLeft="@drawable/user_edit"
+        android:paddingLeft="10dp"
+        android:drawablePadding="10dp"
+        android:hint="Email Adresi veya Kullanıcı Adı Giriniz"
+        android:textColorHint="#6D214F"
+        android:textColorLink="@color/red"></EditText>
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Şifre Giriniz"
+        android:paddingLeft="10dp"
+        android:drawablePadding="10dp"
+        android:drawableLeft="@drawable/password_edit"
+        android:textColorHint="#6D214F"
+        android:textColorLink="@color/red"
+        android:password="true" />
+
+    <Button
+        android:id="@+id/buttonLogin"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="20dp"
+        android:backgroundTint="@color/button"
+        android:text="Giriş"
+        android:textColor="@color/text"
+        android:textStyle="bold"
+        app:backgroundTint="@color/button"></Button>
+
+    <LinearLayout
+        android:layout_width="372dp"
+        android:layout_height="46dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewYeniHesap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="15dp"
+            android:text="Hesabın yok mu? "
+            android:textColor="#6D214F"
+            android:textSize="15dp"></TextView>
+
+        <TextView
+            android:id="@+id/textViewSignUp"
+            android:layout_width="wrap_content"
+            android:layout_height="23dp"
+            android:layout_marginTop="5dp"
+            android:text="Kaydol"
+            android:textColor="@color/blue"
+            android:textSize="16dp"
+            android:textStyle="bold"></TextView>
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/textViewPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Parolanı mı unuttun?"
+        android:textColor="@color/blue"
+        android:textStyle="bold"
+
+
+        android:textSize="16dp"></TextView>
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gece Modu"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="20dp"
+        android:paddingLeft="10dp"/>
+
+</LinearLayout>

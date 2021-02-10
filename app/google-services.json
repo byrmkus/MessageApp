@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "453743763403",
+    "firebase_url": "https://mesajlasma-6c30a-default-rtdb.firebaseio.com",
+    "project_id": "mesajlasma-6c30a",
+    "storage_bucket": "mesajlasma-6c30a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:453743763403:android:6da729292cc59ea172e04e",
+        "android_client_info": {
+          "package_name": "com.baykus.messageapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "453743763403-mki5kplhsm0kcrlkk53lsej1m5l50ggi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQ2eAG2pxLOwdzig3drBNoo_eJ5gFXXDM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "453743763403-mki5kplhsm0kcrlkk53lsej1m5l50ggi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
